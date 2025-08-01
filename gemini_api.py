@@ -6,7 +6,7 @@ import json
 import time
 import openpyxl
 
-client = genai.configure(api_key="AIzaSyCpujkcZAcvudbJlxGkHSmVXc5hePVxuSE")
+client = genai.configure(api_key="apikey")
 # model = genai.GenerativeModel('gemini-2.0-flash')
 model = genai.GenerativeModel('gemini-2.5-pro-preview-06-05')
 # model = genai.GenerativeModel('gemini-1.5-flash')
