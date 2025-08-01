@@ -1,0 +1,1 @@
+# dade-ftsp-receipt-invoice-extractor
