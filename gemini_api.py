@@ -104,9 +104,9 @@ def parse_and_save_to_excel(response_text, output_file="output.xlsx"):
 
 def process_single_document(delete_after=True):
     print("\nSingle Document Processing")
-    # file_path = r"C:\Y3S1\Details Extraction from Receipts & Invoices\invoice.pdf"
+    file_path = r"C:\Y3S1\Details Extraction from Receipts & Invoices\invoice.pdf"
     # file_path = r"C:\Y3S1\Details Extraction from Receipts & Invoices\scan receipt sample 1.pdf"
-    file_path = r"C:\Y3S1\Details Extraction from Receipts & Invoices\scan receipt sample 2.pdf"
+    # file_path = r"C:\Y3S1\Details Extraction from Receipts & Invoices\scan receipt sample 2.pdf"
     # file_path = r"C:\Y3S1\Details Extraction from Receipts & Invoices\SGP Invoice 9926910986.PDF"
     # file_path = r"C:\Y3S1\Details Extraction from Receipts & Invoices\WhatsApp Image 2025-02-22 at 11.53.41.jpeg"
 
