@@ -17,3 +17,7 @@ openpyxl
 Usage:
 Set your Gemini API key in the script (client = genai.configure(api_key="apikey")). (optional to hide the api key)
 Modify the file_path variable to point to your receipt/invoice file.
+
+Note:
+Error 500 occurs when the input(pdf or images) are too large. Reduce your input context or temporarily switch to another model (e.g. from Gemini 1.5 Pro to Gemini 1.5 Flash) and see if it works. Or wait a bit and retry your request. 
+
